@@ -21,7 +21,7 @@ export default function Topbar() {
     <div className="topbar">
       {currentNetwork != '' ? (
         <p className="currentNetwork">
-          <RiWifiFill /> {currentNetwork}
+          {/* <RiWifiFill /> {currentNetwork} */}
         </p>
       ) : (
         ''

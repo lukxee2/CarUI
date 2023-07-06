@@ -52,7 +52,7 @@ export default function CarplayRoute() {
           fps: 60,
         }}
         touchEvent={touchHandler}
-        style={{ height: visibility ? 'calc(100% - 23.5vh)' : '' }}
+        style={{ height: visibility ? 'calc(100% - 56px)' : '' }}
       />
       {visibility ? <Navbar /> : ''}
     </>

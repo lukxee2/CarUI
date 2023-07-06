@@ -1,5 +1,6 @@
 import { Outlet } from 'react-router-dom';
 import Topbar from 'renderer/components/topbar/topbar';
+import Navbar from '../../components/navbar/navbar';
 import './settings.scss';
 
 export default function SettingsRoute() {
@@ -9,6 +10,7 @@ export default function SettingsRoute() {
       <div className="settings_container">
         <Outlet />
       </div>
+      <Navbar />
     </main>
   );
 }

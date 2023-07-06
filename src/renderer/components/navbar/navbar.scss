@@ -4,9 +4,9 @@
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    height: 17.5vh;
+    height: 10vh;
     width: 100%;
-    border-top: 1px solid rgba(0, 0, 0, 0.4);
+    border-top: 1px solid rgba(255, 255, 255, 1);
 }
 
 .navbar_link, .navbar_btn {
@@ -18,16 +18,16 @@
     font-weight: 600;
     width: 100%;
     text-decoration: none;
-    background-color: rgba(0, 0, 0, 0.25);
+    background-color: rgba(255, 255, 255, 1);
     transition: background-color .2s;
 
     &:hover {
-        background-color: rgba(0, 0, 0, 0.7);
+        background-color: rgba(235, 235, 235, 1);
     }
 }
 
 .navbar_btn {
-    color: #fff;
+    color: #000;
     border: none;
 }
 

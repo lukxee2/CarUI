@@ -11,18 +11,62 @@
 
  body {
   position: relative;
-  color: white;
+  color: black;
   height: 100vh;
   background-color: black;
-  background-image: url('../../public/wallpapers/4.png');
+  background-image: url('../../public/wallpapers/5.png');
   background-size: cover;
   overflow-y: hidden;
   display: flex;
   justify-content: center;
   align-items: center;
+  font-family: 'Helvetica', 'Arial', sans-serif;
 }
 
 main {
   width: 100vw;
-  height: 100vh;
+}
+
+nav {
+  overflow: hidden;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+.App {
+  font-family: 'Soft' !important;
+}
+
+.carplay {
+  color: black;
+}
+
+@font-face {
+  font-family: 'Heavy'; /*a name to be used later*/
+  src: url('../../public/fonts/Heavy.otf'); /*URL to font*/
+}
+@font-face {
+  font-family: 'NY'; /*a name to be used later*/
+  src: url('../../public/fonts/NY.otf'); /*URL to font*/
+}
+@font-face {
+  font-family: 'Pro'; /*a name to be used later*/
+  src: url('../../public/fonts/Pro.otf'); /*URL to font*/
+}
+@font-face {
+  font-family: 'Rails'; /*a name to be used later*/
+  src: url('../../public/fonts/Rails.otf'); /*URL to font*/
+}
+@font-face {
+  font-family: 'Rounded'; /*a name to be used later*/
+  src: url('../../public/fonts/Rounded.otf'); /*URL to font*/
+}
+@font-face {
+  font-family: 'Soft'; /*a name to be used later*/
+  src: url('../../public/fonts/Soft.otf'); /*URL to font*/
+}
+@font-face {
+  font-family: 'Stencil'; /*a name to be used later*/
+  src: url('../../public/fonts/Stencil.otf'); /*URL to font*/
 }

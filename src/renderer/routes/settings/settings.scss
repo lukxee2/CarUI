@@ -1,5 +1,5 @@
 .settings {
-  background-color: rgba(0, 0, 0, 0.8);
+  background-color: rgba(0, 0, 0, 0);
 }
 
 .settings_container {
@@ -14,10 +14,10 @@
     padding: 1.8rem 1.5rem;
     transition: background-color 0.2s ease-in-out;
     text-decoration: none;
-    color: #fff;
+    color: #000;
 
     &:hover {
-      background-color: rgb(0, 0, 0);
+      background-color: rgb(0, 0, 0, 0.2);
     }
   }
 
@@ -27,7 +27,7 @@
     justify-content: space-between;
 
     input {
-      color: #fff;
+      color: #000;
       background-color: transparent;
       border: none;
       text-align: center;

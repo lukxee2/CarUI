@@ -8,6 +8,8 @@ import NetflixRoute from './routes/netflixRoute';
 import YoutubeRoute from './routes/youtubeRoute';
 import SettingsRoute from './routes/settings/settingsRoute';
 import MusicRoute from './routes/musicRoute';
+import BrowserRoute from './routes/browserRoute';
+import CameraRoute from './routes/cameraRoute';
 import WifiSettings from './routes/settings/wifiSettings';
 import SettingsList from './routes/settings/settingsList';
 import CustomizationSettings from './routes/settings/customizationSettings';
@@ -40,6 +42,8 @@ export default function App() {
         <Route path="youtube" element={<YoutubeRoute />} />
         <Route path="netflix" element={<NetflixRoute />} />
         <Route path="music" element={<MusicRoute />} />
+        <Route path="browser" element={<BrowserRoute />} />
+        <Route path="camera" element={<CameraRoute />} />
         <Route path="settings" element={<SettingsRoute />}>
           <Route index element={<SettingsList />} />
           <Route path="wifi" element={<WifiSettings />} />

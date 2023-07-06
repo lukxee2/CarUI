@@ -19,12 +19,12 @@ export default function CustomizationWallpaper() {
       </Link>
       <ul className="settings_wallpaper_list">
         <li>
-          <button
+          {/* <button
             onClick={() => handleChange('wallpapers/1.png')}
             type="button"
           >
             <img src="wallpapers/1.png" alt="Wallpaper 1" />
-          </button>
+          </button> */}
           <button
             onClick={() => handleChange('wallpapers/2.png')}
             type="button"
@@ -42,6 +42,12 @@ export default function CustomizationWallpaper() {
             type="button"
           >
             <img src="wallpapers/4.png" alt="Wallpaper 4" />
+          </button>
+          <button
+            onClick={() => handleChange('wallpapers/5.png')}
+            type="button"
+          >
+            <img src="wallpapers/5.png" alt="Wallpaper 5" />
           </button>
         </li>
       </ul>
