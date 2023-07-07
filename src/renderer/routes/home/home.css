@@ -1,7 +1,35 @@
 #home-clock {
-    padding: 3rem 4rem;
+    padding: 2rem 4rem;
     font-size: 7rem;
     font-weight: 300;
     font-family: 'Pro';
     color: #444444;
+}
+
+.circle {
+  translate: 50%;
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
+  background: #444444;
+}
+
+.gear {
+  color: white;
+  font-family: 'Pro';
+  font-size: 1.5rem;
+  padding-top: 2rem;
+}
+
+.speed {
+  color: white;
+  font-family: 'Pro';
+  font-size: 7.5rem;
+  padding-top: 5px;
+}
+
+.center {
+  margin: auto;
+  width: 50%;
+  text-align: center;
 }

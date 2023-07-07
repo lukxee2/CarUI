@@ -22,6 +22,10 @@ export default function HomeRoute() {
   return (
     <main>
       <p id="home-clock">{clock()}</p>
+      <div className="circle">
+        <p className="gear center">N</p>
+        <p className="speed center">0</p>
+      </div>
       <Navbar />
     </main>
   );
