@@ -42,6 +42,15 @@ nav {
   color: black;
 }
 
+video {
+  width: 100%;
+  height: calc(100% - 56px);
+  object-fit: cover;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
 @font-face {
   font-family: 'Heavy'; /*a name to be used later*/
   src: url('../../public/fonts/Heavy.otf'); /*URL to font*/

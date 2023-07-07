@@ -4,10 +4,7 @@ import { CarplayAudio } from 'react-js-carplay';
 import { useEffect } from 'react';
 import HomeRoute from './routes/home/homeRoute';
 import CarplayRoute from './routes/carplay/carplayRoute';
-import NetflixRoute from './routes/netflixRoute';
-import YoutubeRoute from './routes/youtubeRoute';
 import SettingsRoute from './routes/settings/settingsRoute';
-import MusicRoute from './routes/musicRoute';
 import BrowserRoute from './routes/browserRoute';
 import CameraRoute from './routes/cameraRoute';
 import WifiSettings from './routes/settings/wifiSettings';
@@ -39,9 +36,6 @@ export default function App() {
       <Routes>
         <Route path="/" element={<HomeRoute />} />
         <Route path="carplay" element={<CarplayRoute />} />
-        <Route path="youtube" element={<YoutubeRoute />} />
-        <Route path="netflix" element={<NetflixRoute />} />
-        <Route path="music" element={<MusicRoute />} />
         <Route path="browser" element={<BrowserRoute />} />
         <Route path="camera" element={<CameraRoute />} />
         <Route path="settings" element={<SettingsRoute />}>
